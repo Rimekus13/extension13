@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "Helping",
+  "version": "1.0",
+
+  "description": "Aide-mémoire a propos du code",
+  "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
+  "icons": {
+    "48": "icons/help-48.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "browser_action": {
+    "default_icon": "icons/help-32.png",
+    "default_title": "Helping",
+    "default_popup": "popup/choose_help.html"
+  },
+
+  "web_accessible_resources": [
+    
+  ]
+}
