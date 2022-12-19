@@ -1,0 +1,63 @@
+html, body {
+  width: 350px;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 45% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+.beast:hover {
+  background-color: #8ca85e;
+}
+
+.terminal {
+  background-color: #f3f3f3;
+  font-size: medium;
+  margin: 3% auto;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+  text-decoration: none;
+  width: 250px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+}
+
+.terminal:nth-child(2) {
+  border: 3px solid red;
+
+}
+.popup-content {
+  display: flex;
+  flex-direction: column;
+}
+img {
+  width: 24px;
+  border: 1px solid rgb(34, 168, 157);
+
+}
+
+a {
+  text-decoration: none;
+  border: 3px solid rgb(69, 28, 182);
+
+}
+
+h1 {  
+  background-color: #969681b7;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+

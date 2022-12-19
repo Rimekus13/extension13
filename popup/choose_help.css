@@ -1,0 +1,28 @@
+html, body {
+  width: 350px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+.terminal, .css, {
+  background-color: #f3f3f3;
+  font-size: medium;
+  border-color: #000000;
+  margin: 3% auto;
+  padding: 1px;
+  text-align: center;
+  font-size: 1.5em;
+  cursor: pointer;
+}
+
+h1 {  
+  background-color: #FBFBC9;
+  text-align: center;
+  font-size: 22px;
+
+}
+
+
